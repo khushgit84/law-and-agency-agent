@@ -1,0 +1,24 @@
+[
+  {
+    "uid": "zkJDYDPor7MRryO4fYtItmjl8x93",
+    "email": "khushatel3010pvc@gmail.com",
+    "displayName": "Khush Patel",
+    "phoneNumber": null,
+    "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocLEUmYSgpbXpxW0XEUEqmy-bhFbcg9lP3J2U68fvqKFpnRWpcblrg=s96-c",
+    "provider": "google.com",
+    "createdAt": "2026-09-12T05:36:10.520Z",
+    "lastLoginAt": "2026-09-12T05:41:20.151Z",
+    "loginCount": 2
+  },
+  {
+    "uid": "UKiNUv0JJLbEGyWX8r8iGujUn9T2",
+    "email": "vexloraindia@gmail.com",
+    "displayName": "khush patel",
+    "phoneNumber": null,
+    "photoURL": null,
+    "provider": "password",
+    "createdAt": "2026-09-12T05:41:50.420Z",
+    "lastLoginAt": "2026-09-12T05:41:50.420Z",
+    "loginCount": 1
+  }
+]

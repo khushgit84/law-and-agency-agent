@@ -1,0 +1,122 @@
+[
+  {
+    "id": "lt_1",
+    "category": "landlord_tenant",
+    "issue": "Landlord refuses to return security deposit",
+    "right": "Tenant is entitled to full deposit return minus documented damages, within a reasonable period after vacating (varies by state Rent Control Act).",
+    "authority": "Rent Controller / Small Causes Court (state-specific) or send a legal notice first.",
+    "documents_needed": "Rent agreement, deposit receipt, vacate notice copy"
+  },
+  {
+    "id": "lt_2",
+    "category": "landlord_tenant",
+    "issue": "Landlord cuts off electricity or water supply",
+    "right": "It is illegal for a landlord to disconnect essential services (Section 31/32 of various Rent Control Acts) to force eviction or for unpaid rent.",
+    "authority": "Rent Controller or Local Police Station (for immediate relief).",
+    "documents_needed": "Rent agreement, proof of residence, utility bills"
+  },
+  {
+    "id": "lt_3",
+    "category": "landlord_tenant",
+    "issue": "Landlord demands sudden, unreasonable rent increase",
+    "right": "Rent increases must follow the terms of the signed agreement or local Rent Control Act limits (often capped at around 10% annually or bi-annually).",
+    "authority": "Rent Controller.",
+    "documents_needed": "Current rent agreement, previous rent receipts"
+  },
+  {
+    "id": "lt_4",
+    "category": "landlord_tenant",
+    "issue": "Forced eviction without proper notice",
+    "right": "Landlords cannot forcibly evict tenants without a court order and legally mandated notice period (usually 30 days minimum).",
+    "authority": "Civil Court / Police (if physical force is used).",
+    "documents_needed": "Rent agreement, police complaint if threatened"
+  },
+  {
+    "id": "lt_5",
+    "category": "landlord_tenant",
+    "issue": "Landlord enters premises without permission or notice",
+    "right": "Tenants have a right to privacy. Landlords must give reasonable prior notice (typically 24 hours) before entering for inspections or repairs.",
+    "authority": "Local Police (if trespassing) or send a legal notice.",
+    "documents_needed": "Rent agreement, evidence of unauthorized entry"
+  },
+  {
+    "id": "wp_1",
+    "category": "workplace",
+    "issue": "Employer refuses to pay salary or is delaying salary",
+    "right": "Employees have a right to receive wages on time under the Payment of Wages Act, 1936.",
+    "authority": "Labour Commissioner / Labour Court.",
+    "documents_needed": "Offer letter, bank statements, emails demanding pay"
+  },
+  {
+    "id": "wp_2",
+    "category": "workplace",
+    "issue": "Wrongful termination without notice or severance",
+    "right": "Termination must comply with the employment contract and Industrial Disputes Act (if applicable), requiring proper notice or pay in lieu.",
+    "authority": "Labour Court / Civil Court.",
+    "documents_needed": "Employment contract, termination letter, payslips"
+  },
+  {
+    "id": "wp_3",
+    "category": "workplace",
+    "issue": "Workplace sexual harassment (POSH)",
+    "right": "Women have the right to a safe workplace. The POSH Act 2013 mandates an Internal Complaints Committee (ICC) for companies with 10+ employees.",
+    "authority": "Internal Complaints Committee (ICC) or Local Complaints Committee (LCC) / Police.",
+    "documents_needed": "Written complaint, any evidence (emails, texts, witnesses)"
+  },
+  {
+    "id": "wp_4",
+    "category": "workplace",
+    "issue": "Denial of maternity leave",
+    "right": "Under the Maternity Benefit Act, 1961, eligible female employees are entitled to 26 weeks of paid maternity leave.",
+    "authority": "Labour Commissioner.",
+    "documents_needed": "Medical certificates, leave application, employment proof"
+  },
+  {
+    "id": "wp_5",
+    "category": "workplace",
+    "issue": "Forced unpaid overtime",
+    "right": "Under the Factories Act and State Shops & Establishments Acts, overtime work must be compensated, typically at twice the normal wage rate.",
+    "authority": "Labour Inspector / Labour Commissioner.",
+    "documents_needed": "Timesheets, login/logout records, employment contract"
+  },
+  {
+    "id": "cs_1",
+    "category": "consumer",
+    "issue": "Defective product purchased, seller refuses refund/replacement",
+    "right": "Under the Consumer Protection Act, 2019, consumers can seek refund or replacement for defective goods.",
+    "authority": "District Consumer Disputes Redressal Commission (Consumer Forum).",
+    "documents_needed": "Original invoice, warranty card, communication with seller"
+  },
+  {
+    "id": "cs_2",
+    "category": "consumer",
+    "issue": "Overcharging above MRP",
+    "right": "It is illegal to sell a packaged product at a price higher than the Maximum Retail Price (MRP) under the Legal Metrology Act.",
+    "authority": "Legal Metrology Department / Consumer Forum.",
+    "documents_needed": "Original bill showing price paid, photo of product MRP"
+  },
+  {
+    "id": "cs_3",
+    "category": "consumer",
+    "issue": "Misleading advertisement or false claims",
+    "right": "Consumers are protected against false or misleading advertisements under the Consumer Protection Act, 2019.",
+    "authority": "Central Consumer Protection Authority (CCPA) / Consumer Forum.",
+    "documents_needed": "Copy/screenshot of advertisement, proof of purchase"
+  },
+  {
+    "id": "cs_4",
+    "category": "consumer",
+    "issue": "Service provider deficiency (e.g., broadband, airlines, insurance)",
+    "right": "Consumers can claim compensation for deficiency in services (delays, poor quality, failure to deliver) under the CPA, 2019.",
+    "authority": "District Consumer Forum / Sector-specific ombudsman (e.g., Insurance Ombudsman).",
+    "documents_needed": "Service contract, bills, proof of deficiency, complaint emails"
+  },
+  {
+    "id": "cs_5",
+    "category": "consumer",
+    "issue": "E-commerce delivery failure or fake product",
+    "right": "E-commerce platforms are liable for unfair trade practices and must assist in grievance redressal under E-commerce Rules 2020.",
+    "authority": "National Consumer Helpline (NCH) / Consumer Forum.",
+    "documents_needed": "Order confirmation, payment receipt, photos of fake product/empty box"
+  }
+]

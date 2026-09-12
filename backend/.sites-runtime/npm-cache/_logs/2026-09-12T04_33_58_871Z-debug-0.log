@@ -1,0 +1,28 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.4
+2 info using node@v22.21.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\vscode\.npmrc
+5 silly config load:file:C:\Users\307520 B7IIN\.npmrc
+6 silly config load:file:C:\Users\307520 B7IIN\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm init
+8 verbose argv "init" "--yes"
+9 verbose logfile logs-max:10 dir:D:\vscode\Z-RAKSAK\backend\.sites-runtime\npm-cache\_logs\2026-09-12T04_33_58_871Z-
+10 verbose logfile D:\vscode\Z-RAKSAK\backend\.sites-runtime\npm-cache\_logs\2026-09-12T04_33_58_871Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly package data {
+12 silly package data   name: 'backend',
+12 silly package data   version: '1.0.0',
+12 silly package data   description: '',
+12 silly package data   main: 'index.js',
+12 silly package data   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+12 silly package data   keywords: [],
+12 silly package data   author: '',
+12 silly package data   license: 'ISC'
+12 silly package data }
+13 verbose cwd D:\vscode\Z-RAKSAK\backend
+14 verbose os Windows_NT 10.0.26200
+15 verbose node v22.21.1
+16 verbose npm  v10.9.4
+17 verbose exit 0
+18 info ok
