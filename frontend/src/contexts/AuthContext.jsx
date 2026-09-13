@@ -7,8 +7,12 @@ import {
   signInWithPhoneNumber,
   RecaptchaVerifier,
   signOut,
-  updateProfile
+  updateProfile,
+  GoogleAuthProvider,
+  signInWithCredential
 } from 'firebase/auth';
+import { Capacitor } from '@capacitor/core';
+import { FirebaseAuthentication } from '@capacitor-firebase/authentication';
 import { auth, googleProvider } from '../firebase';
 
 const AuthContext = createContext(null);
@@ -67,8 +71,20 @@ export function AuthProvider({ children }) {
   };
 
   const loginWithGoogle = async () => {
-    const result = await signInWithPopup(auth, googleProvider);
-    return result.user;
+    if (Capacitor.isNativePlatform()) {
+      try {
+        const result = await FirebaseAuthentication.signInWithGoogle();
+        const credential = GoogleAuthProvider.credential(result.credential?.idToken);
+        const userCredential = await signInWithCredential(auth, credential);
+        return userCredential.user;
+      } catch (err) {
+        console.error("Native Google Login Error:", err);
+        throw err;
+      }
+    } else {
+      const result = await signInWithPopup(auth, googleProvider);
+      return result.user;
+    }
   };
 
   const loginWithEmail = async (email, password) => {
